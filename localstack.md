@@ -15,7 +15,7 @@ sudo tar xvzf localstack-cli-4.0.0-linux-*-onefile.tar.gz -C /usr/local/bin
 ## Run
 
 ```sh
-sudo localstack start # start localstack in background with -d flag
+sudo DEBUG=1 localstack start # start localstack in background with -d flag
 ```
 
 ### Check status
