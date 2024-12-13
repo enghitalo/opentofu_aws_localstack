@@ -15,7 +15,13 @@ sudo tar xvzf localstack-cli-4.0.0-linux-*-onefile.tar.gz -C /usr/local/bin
 ## Run
 
 ```sh
-localstack start # start localstack in background with -d flag
+sudo localstack start # start localstack in background with -d flag
+```
+
+### Check status
+
+```sh
+localstack status services
 ```
 
 ## Docker-Compose
